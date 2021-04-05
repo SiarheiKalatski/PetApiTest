@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Pet Server" verbose="1" >
+    <test name="PetApi">
+        <parameter name="pet" value="{&quot;id&quot;: 1741, &quot;category&quot;: {&quot;id&quot;: 0,&quot;name&quot;: &quot;string&quot;}, &quot;name&quot;: &quot;doggie1&quot;, &quot;photoUrls&quot;: [&quot;string&quot;],  &quot;tags&quot;: [{&quot;id&quot;: 10,&quot;name&quot;: &quot;string&quot;}], &quot;status&quot;: &quot;available&quot;}"/>
+        <parameter name="status" value="available"/>
+        <parameter name="id" value="1741"/>
+        <classes>
+            <class name="PetTest"/>
+        </classes>
+    </test>
+</suite>
