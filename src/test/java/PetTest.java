@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import java.net.URL;
+import java.util.HashMap;
 import java.util.Map;
 
 import static io.restassured.path.json.JsonPath.reset;
@@ -40,7 +41,9 @@ public class PetTest {
         urlBuilder.addUrlPath("findByStatus");
         urlBuilder.addParams("status", status);
         URL getPet = urlBuilder.buildURL(url);
-        Map<String, Object> responseMap = baseApiClient.get(getPet);
+        Map <String, String> headers = new HashMap<>();
+        headers.put("Content-Type","application/json" );
+        Map<String, Object> responseMap = baseApiClient.get(getPet,headers );
 
         softAssert.assertTrue(responseMap.get(BaseApiClient.statusCodeKey).equals(statusCode));
         softAssert.assertTrue(responseMap.get(BaseApiClient.bodyKey).toString().contains(status));
@@ -55,7 +58,9 @@ public class PetTest {
         URLBuilder urlBuilder = new URLBuilder();
         URL postPet = urlBuilder.buildURL(url);
         Pet pet = new ObjectMapper().readValue(petJson, Pet.class);
-        Map<String, Object> responseMap = baseApiClient.post(postPet, pet);
+        Map <String, String> headers = new HashMap<>();
+        headers.put("Content-Type","application/json" );
+        Map<String, Object> responseMap = baseApiClient.post(postPet, pet, headers);
 
         softAssert.assertTrue(responseMap.get(BaseApiClient.statusCodeKey).equals(statusCode));
         softAssert.assertTrue(responseMap.get(BaseApiClient.bodyKey).toString().contains(pet.getStatus()));
@@ -70,7 +75,9 @@ public class PetTest {
         URLBuilder urlBuilder = new URLBuilder();
         URL putPet = urlBuilder.buildURL(url);
         Pet pet = new ObjectMapper().readValue(petJson, Pet.class);
-        Map<String, Object> responseMap = baseApiClient.put(putPet, pet);
+        Map <String, String> headers = new HashMap<>();
+        headers.put("Content-Type","application/json" );
+        Map<String, Object> responseMap = baseApiClient.put(putPet, pet, headers);
 
         softAssert.assertTrue(responseMap.get(BaseApiClient.statusCodeKey).equals(statusCode));
         softAssert.assertTrue(responseMap.get(BaseApiClient.bodyKey).toString().contains(pet.getStatus()));
@@ -85,7 +92,9 @@ public class PetTest {
         URLBuilder urlBuilder = new URLBuilder();
         urlBuilder.addUrlPath(id);
         URL deletePet = urlBuilder.buildURL(url);
-        Map<String, Object> responseMap = baseApiClient.delete(deletePet);
+        Map <String, String> headers = new HashMap<>();
+        headers.put("Content-Type","application/json" );
+        Map<String, Object> responseMap = baseApiClient.delete(deletePet, headers);
 
         softAssert.assertTrue(responseMap.get(BaseApiClient.statusCodeKey).equals(statusCode));
         softAssert.assertTrue(responseMap.get(BaseApiClient.bodyKey).toString().contains(id));

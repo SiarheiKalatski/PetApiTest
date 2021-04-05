@@ -8,8 +8,8 @@ public interface BaseApiClient<T> {
     String headKey = "Head";
     String statusCodeKey = "StatusCode";
 
-    Map<String,Object> get(URL Url);
-    Map<String,Object> post(URL Url, T t);
-    Map <String, Object> put(URL  Url, T t);
-    Map <String, Object> delete(URL Url);
+    Map<String,Object> get(URL Url, Map <String,String> headers);
+    Map<String,Object> post(URL Url, T t, Map <String,String> headers);
+    Map <String, Object> put(URL  Url, T t, Map <String,String> headers);
+    Map <String, Object> delete(URL Url, Map <String,String> headers);
 }

@@ -19,44 +19,44 @@ import java.util.Map;
 public class HttpClient<T> implements BaseApiClient<T> {
     @SneakyThrows
     @Override
-    public Map<String, Object> get(URL Url) {
+    public Map<String, Object> get(URL Url, Map <String,String> headersMap) {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpGet httpGet = new HttpGet(Url.toURI());
+        headersMap.forEach(httpGet::setHeader);
         HttpResponse httpResponse = httpClient.execute(httpGet);
         return buildMap(httpResponse);
     }
 
     @SneakyThrows
     @Override
-    public Map<String, Object> post(URL Url, T t) {
+    public Map<String, Object> post(URL Url, T t, Map <String,String> headersMap) {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpPost httpPost = new HttpPost(Url.toURI());
         ObjectMapper objectMapper = new ObjectMapper();
         StringEntity entity = new StringEntity(objectMapper.writeValueAsString(t));
         httpPost.setEntity(entity);
-        httpPost.setHeader(HttpHeaders.ACCEPT, "application/json");
-        httpPost.setHeader(HttpHeaders.CONTENT_TYPE,"application/json");
+        headersMap.forEach(httpPost::setHeader);
         return buildMap(httpClient.execute(httpPost));
     }
 
     @SneakyThrows
     @Override
-    public Map<String, Object> put(URL Url, T t) {
+    public Map<String, Object> put(URL Url, T t, Map <String,String> headersMap) {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpPut httpPut = new HttpPut(Url.toURI());
         ObjectMapper objectMapper = new ObjectMapper();
         StringEntity entity = new StringEntity(objectMapper.writeValueAsString(t));
         httpPut.setEntity(entity);
-        httpPut.setHeader(HttpHeaders.ACCEPT, "application/json");
-        httpPut.setHeader(HttpHeaders.CONTENT_TYPE,"application/json");
+        headersMap.forEach(httpPut::setHeader);
         return buildMap(httpClient.execute(httpPut));
     }
 
     @SneakyThrows
     @Override
-    public Map<String, Object> delete(URL Url) {
+    public Map<String, Object> delete(URL Url, Map <String,String> headersMap) {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpDelete httpDelete = new HttpDelete(Url.toURI());
+        headersMap.forEach(httpDelete::setHeader);
         return buildMap(httpClient.execute(httpDelete));
     }
 
