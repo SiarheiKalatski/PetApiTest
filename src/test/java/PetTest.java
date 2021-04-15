@@ -1,7 +1,6 @@
-import BaseApiClient.*;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import entity.*;
-import logic.URLBuilder;
+import restApiClient.*;
+import restApiClient.model.Answer;
+import models.*;
 import lombok.SneakyThrows;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -9,22 +8,41 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
+import static utils.JsonSerializer.*;
+
+import java.io.File;
+import java.util.*;
 
 import static io.restassured.path.json.JsonPath.reset;
 
 public class PetTest {
     private final int statusCode = 200;
     private SoftAssert softAssert;
-    private BaseApiClient<Pet> baseApiClient;
-    private final String url = "https://petstore.swagger.io/v2/pet";
+    private BaseApiClient baseApiClient;
+    private final String baseUrl = "https://petstore.swagger.io";
+    private final String type = "/{type}";
+    private final String command = "/{animal}";
+    private final String id = "/{PetId}";
     private final String serverName = "Jetty(9.2.9.v20150224)";
+    private final File postJson = new File("src/test/resources/PostJson.json");
+    private final File putJson = new File("src/test/resources/PutJson.json");
+    private static final Map<String, String> headers = new HashMap<>();
+    private static final Map<String, String> pathForGetDelete = new LinkedHashMap<>();
+    private static final Map<String, String> pathForPostPut = new LinkedHashMap<>();
+    private static final Map<String, String> queryParams = new HashMap<>();
+
+    static {
+        pathForGetDelete.put("type", "v2");
+        pathForGetDelete.put("animal", "pet");
+        pathForGetDelete.put("PetId", "12");
+        pathForPostPut.put("type", "v2");
+        pathForPostPut.put("animal", "pet");
+        headers.put("Content-Type", "application/json");
+    }
 
     @BeforeMethod
     public void setup() {
-        baseApiClient = new HttpClient<Pet>();
+        baseApiClient = new HttpClient();
         softAssert = new SoftAssert();
     }
 
@@ -33,72 +51,52 @@ public class PetTest {
         reset();
     }
 
-    @Parameters("status")
-    @SneakyThrows
-    @Test
-    public void getPetByStatusApiTest(String status) {
-        URLBuilder urlBuilder = new URLBuilder();
-        urlBuilder.addUrlPath("findByStatus");
-        urlBuilder.addParams("status", status);
-        URL getPet = urlBuilder.buildURL(url);
-        Map <String, String> headers = new HashMap<>();
-        headers.put("Content-Type","application/json" );
-        Map<String, Object> responseMap = baseApiClient.get(getPet,headers );
 
-        softAssert.assertTrue(responseMap.get(BaseApiClient.statusCodeKey).equals(statusCode));
-        softAssert.assertTrue(responseMap.get(BaseApiClient.bodyKey).toString().contains(status));
-        softAssert.assertTrue(responseMap.get(BaseApiClient.headKey).toString().contains(serverName));
+    @SneakyThrows
+    @Test(dependsOnMethods = {"postPetApiTest"})
+    public void getPetByStatusApiTest() {
+        Answer answer = baseApiClient.get(baseUrl + type + command + id, pathForGetDelete, queryParams, headers,
+                null, Pet.class);
+        softAssert.assertTrue(answer.getStatusCode() == (statusCode));
+        softAssert.assertTrue(((Pet) answer.getBody()).getId().toString().contains(pathForGetDelete.get("PetId")));
+        softAssert.assertTrue(answer.getHead().toString().contains(serverName));
         softAssert.assertAll();
     }
 
-    @Parameters("pet")
     @SneakyThrows
     @Test
-    public void postPetApiTest(String petJson) {
-        URLBuilder urlBuilder = new URLBuilder();
-        URL postPet = urlBuilder.buildURL(url);
-        Pet pet = new ObjectMapper().readValue(petJson, Pet.class);
-        Map <String, String> headers = new HashMap<>();
-        headers.put("Content-Type","application/json" );
-        Map<String, Object> responseMap = baseApiClient.post(postPet, pet, headers);
-
-        softAssert.assertTrue(responseMap.get(BaseApiClient.statusCodeKey).equals(statusCode));
-        softAssert.assertTrue(responseMap.get(BaseApiClient.bodyKey).toString().contains(pet.getStatus()));
-        softAssert.assertTrue(responseMap.get(BaseApiClient.headKey).toString().contains(serverName));
+    public void postPetApiTest() {
+        Pet pet = convertToClass(postJson, null, Pet.class);
+        Map<String, String> queryParams = new HashMap<>();
+        Answer answer = baseApiClient.post(baseUrl + type + command, pathForPostPut, queryParams, headers,
+                pet, Pet.class);
+        softAssert.assertTrue(answer.getStatusCode() == (statusCode));
+        softAssert.assertTrue(((Pet) answer.getBody()).getName().contains(pet.getName()));
+        softAssert.assertTrue(answer.getHead().toString().contains(serverName));
         softAssert.assertAll();
     }
 
-    @Parameters("pet")
     @Test
-    @SneakyThrows
-    public void putPetApiTest(String petJson) {
-        URLBuilder urlBuilder = new URLBuilder();
-        URL putPet = urlBuilder.buildURL(url);
-        Pet pet = new ObjectMapper().readValue(petJson, Pet.class);
-        Map <String, String> headers = new HashMap<>();
-        headers.put("Content-Type","application/json" );
-        Map<String, Object> responseMap = baseApiClient.put(putPet, pet, headers);
-
-        softAssert.assertTrue(responseMap.get(BaseApiClient.statusCodeKey).equals(statusCode));
-        softAssert.assertTrue(responseMap.get(BaseApiClient.bodyKey).toString().contains(pet.getStatus()));
-        softAssert.assertTrue(responseMap.get(BaseApiClient.headKey).toString().contains(serverName));
+    public void putPetApiTest() {
+        Pet pet = convertToClass(putJson, null, Pet.class);
+        Answer answer = baseApiClient.put(baseUrl + type + command, pathForPostPut, queryParams, headers,
+                pet, Pet.class);
+        softAssert.assertTrue(answer.getStatusCode() == (statusCode));
+        softAssert.assertTrue(((Pet) answer.getBody()).getId() == pet.getId());
+        softAssert.assertTrue(answer.getHead().toString().contains(serverName));
         softAssert.assertAll();
+
     }
 
-    @Parameters("id")
-    @Test
+    @Test(dependsOnMethods = {"getPetByStatusApiTest"})
     @SneakyThrows
-    public void deleteByIdPetApiTest(String id) {
-        URLBuilder urlBuilder = new URLBuilder();
-        urlBuilder.addUrlPath(id);
-        URL deletePet = urlBuilder.buildURL(url);
-        Map <String, String> headers = new HashMap<>();
-        headers.put("Content-Type","application/json" );
-        Map<String, Object> responseMap = baseApiClient.delete(deletePet, headers);
-
-        softAssert.assertTrue(responseMap.get(BaseApiClient.statusCodeKey).equals(statusCode));
-        softAssert.assertTrue(responseMap.get(BaseApiClient.bodyKey).toString().contains(id));
-        softAssert.assertTrue(responseMap.get(BaseApiClient.headKey).toString().contains(serverName));
+    public void deleteByIdPetApiTest() {
+        Pet pet = convertToClass(putJson, null, Pet.class);
+        Answer answer = baseApiClient.delete(baseUrl + type + command + id, pathForGetDelete, queryParams, headers,
+                pet, DeletePet.class);
+        softAssert.assertTrue(answer.getStatusCode() == (statusCode));
+        softAssert.assertTrue(((DeletePet) answer.getBody()).getMessage().contains("12"));
+        softAssert.assertTrue(answer.getHead().toString().contains(serverName));
         softAssert.assertAll();
     }
 }

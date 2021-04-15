@@ -1,0 +1,320 @@
+2021-04-15 19:07:55 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 19:07:55 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:07:55 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:07:56 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:07:56 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:07:56 [main] INFO  restApiClient.HttpClient - []
+2021-04-15 19:07:56 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 4,Chunked: false]
+2021-04-15 19:07:57 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:07:57 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:07:57 [main] INFO  restApiClient.HttpClient - []
+2021-04-15 19:07:57 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 4,Chunked: false]
+2021-04-15 19:07:57 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:07:57 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:07:57 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:07:57 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:07:58 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:07:58 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:07:58 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:07:58 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:07:58 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:20:00 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/2/pet/13
+2021-04-15 19:20:00 [main] INFO  restApiClient.HttpClient - []
+2021-04-15 19:20:00 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:20:02 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: text/html,Content-Length: 150,Chunked: false]}
+2021-04-15 19:20:02 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/2/pet/13
+2021-04-15 19:20:02 [main] INFO  restApiClient.HttpClient - []
+2021-04-15 19:20:02 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 4,Chunked: false]
+2021-04-15 19:20:02 [main] INFO  restApiClient.HttpClient - org.apache.http.client.entity.DecompressingEntity@57540fd0
+2021-04-15 19:20:02 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/2/pet
+2021-04-15 19:20:02 [main] INFO  restApiClient.HttpClient - []
+2021-04-15 19:20:02 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:20:03 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: text/html,Content-Length: 150,Chunked: false]}
+2021-04-15 19:21:13 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/2/pet/13
+2021-04-15 19:21:13 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:21:13 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:21:15 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: text/html,Content-Length: 150,Chunked: false]}
+2021-04-15 19:21:15 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/2/pet/13
+2021-04-15 19:21:15 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:21:15 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 4,Chunked: false]
+2021-04-15 19:21:15 [main] INFO  restApiClient.HttpClient - org.apache.http.client.entity.DecompressingEntity@65004ff6
+2021-04-15 19:21:15 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/2/pet
+2021-04-15 19:21:15 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:21:15 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:21:16 [main] INFO  restApiClient.HttpClient - org.apache.http.client.entity.DecompressingEntity@250b236d
+2021-04-15 19:21:16 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/2/pet
+2021-04-15 19:21:16 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:21:16 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:21:16 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: text/html,Content-Length: 150,Chunked: false]}
+2021-04-15 19:21:56 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/2/pet
+2021-04-15 19:21:56 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:21:57 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:21:58 [main] INFO  restApiClient.HttpClient - org.apache.http.client.entity.DecompressingEntity@160396db
+2021-04-15 19:22:52 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:22:52 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:22:52 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:22:53 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:23:04 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:23:04 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:23:05 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:23:06 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:23:06 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:23:06 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:23:06 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 4,Chunked: false]
+2021-04-15 19:23:06 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:23:06 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:23:06 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:23:06 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:23:07 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:23:07 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:23:07 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:23:07 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:23:07 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:23:20 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:23:20 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:23:20 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:23:21 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:23:21 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:23:21 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:23:21 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 4,Chunked: false]
+2021-04-15 19:23:22 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:23:22 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:23:22 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:23:22 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:23:22 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:23:22 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:23:22 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:23:22 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:23:23 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:26:15 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:26:15 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:26:15 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 4,Chunked: false]
+2021-04-15 19:26:16 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:26:35 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:26:35 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:26:35 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:26:36 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:26:36 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:26:36 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:26:36 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 4,Chunked: false]
+2021-04-15 19:26:36 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:26:36 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:26:36 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:26:36 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:26:37 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:26:37 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:26:37 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:26:37 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:26:38 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:27:41 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:27:41 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:27:42 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:27:43 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:28:01 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:28:01 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:28:01 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:28:02 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Chunked: true]}
+2021-04-15 19:28:16 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:28:16 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:28:16 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:28:17 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:28:26 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:28:26 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:28:27 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:28:28 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Chunked: true]}
+2021-04-15 19:31:48 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 19:31:48 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:31:49 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:31:50 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:31:50 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:31:50 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:31:50 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 4,Chunked: false]
+2021-04-15 19:31:51 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:31:51 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:31:51 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:31:51 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:31:52 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:31:52 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:31:52 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:31:52 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:31:53 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:33:52 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:33:52 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:33:52 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 4,Chunked: false]
+2021-04-15 19:33:53 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:35:03 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:35:03 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:35:03 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:35:05 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:35:53 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:35:53 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:35:54 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:35:55 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:36:05 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 19:36:05 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:36:05 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:36:07 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:36:07 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:36:07 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:36:07 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 4,Chunked: false]
+2021-04-15 19:36:07 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:36:08 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:36:08 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:36:08 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:36:08 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:36:08 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:36:08 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:36:08 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:36:09 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:36:27 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 19:36:27 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:36:27 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:36:28 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:36:28 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:36:28 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:36:28 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 4,Chunked: false]
+2021-04-15 19:36:29 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:36:29 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:36:29 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:36:29 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:36:30 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:36:30 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:36:30 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:36:30 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:36:30 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:36:36 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 19:36:36 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:36:36 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:36:38 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:36:38 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:36:38 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:36:38 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 4,Chunked: false]
+2021-04-15 19:36:38 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:36:38 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:36:38 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:36:38 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:36:39 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:36:39 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:36:39 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 19:36:39 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 108,Chunked: false]
+2021-04-15 19:36:39 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 19:37:05 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RequestSpecificationImpl@412c995d
+2021-04-15 19:37:07 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RestAssuredResponseImpl@1290ed28
+2021-04-15 19:37:07 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RequestSpecificationImpl@6ea246af
+2021-04-15 19:37:08 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RestAssuredResponseImpl@5a1f778
+2021-04-15 19:37:08 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RequestSpecificationImpl@4f486211
+2021-04-15 19:37:09 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RestAssuredResponseImpl@79e7188e
+2021-04-15 19:37:09 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RequestSpecificationImpl@26865482
+2021-04-15 19:37:10 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RestAssuredResponseImpl@1983b48a
+2021-04-15 19:37:25 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 19:37:26 [main] INFO  restApiClient.RestTemplateClient - {"code":200,"type":"unknown","message":"12"}
+2021-04-15 19:37:26 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/13
+2021-04-15 19:37:26 [main] INFO  restApiClient.RestTemplateClient - {"id":13,"category":{"id":13,"name":"Sharik"},"name":"Sharik","photoUrls":[],"tags":[],"status":"available"}
+2021-04-15 19:37:26 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:37:27 [main] INFO  restApiClient.RestTemplateClient - {"id":13,"category":{"id":13,"name":"Sharik"},"name":"Sharik","photoUrls":[],"tags":[],"status":"available"}
+2021-04-15 19:37:27 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:37:27 [main] INFO  restApiClient.RestTemplateClient - {"id":12,"category":{"id":12,"name":"Sharik"},"name":"Sharik","photoUrls":[],"tags":[],"status":"available"}
+2021-04-15 19:38:10 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:38:12 [main] INFO  restApiClient.RestTemplateClient - {"id":13,"category":{"id":13,"name":"Sharik"},"name":"Sharik","status":"available"}
+2021-04-15 19:38:49 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 19:38:51 [main] INFO  restApiClient.RestTemplateClient - {"id":13,"category":{"id":13,"name":"Sharik"},"name":"Sharik","status":"available"}
+2021-04-15 20:09:13 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:09:15 [main] INFO  restApiClient.RestTemplateClient - {"id":12,"category":{"id":12,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":12,"name":"string"}],"status":"available"}
+2021-04-15 20:19:08 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:19:09 [main] INFO  restApiClient.RestTemplateClient - {"code":200,"type":"unknown","message":"12"}
+2021-04-15 20:19:09 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:19:09 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:19:09 [main] INFO  restApiClient.RestTemplateClient - {"id":12,"category":{"id":12,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":12,"name":"string"}],"status":"available"}
+2021-04-15 20:19:09 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:19:10 [main] INFO  restApiClient.RestTemplateClient - {"id":13,"category":{"id":13,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":13,"name":"string"}],"status":"available"}
+2021-04-15 20:19:19 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:19:20 [main] INFO  restApiClient.RestTemplateClient - {"code":200,"type":"unknown","message":"12"}
+2021-04-15 20:19:20 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:19:20 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:19:20 [main] INFO  restApiClient.RestTemplateClient - {"id":12,"category":{"id":12,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":12,"name":"string"}],"status":"available"}
+2021-04-15 20:19:20 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:19:20 [main] INFO  restApiClient.RestTemplateClient - {"id":13,"category":{"id":13,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":13,"name":"string"}],"status":"available"}
+2021-04-15 20:21:26 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:21:27 [main] INFO  restApiClient.RestTemplateClient - {"code":200,"type":"unknown","message":"12"}
+2021-04-15 20:21:27 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:21:27 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:21:27 [main] INFO  restApiClient.RestTemplateClient - {"id":12,"category":{"id":12,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":12,"name":"string"}],"status":"available"}
+2021-04-15 20:21:27 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:21:27 [main] INFO  restApiClient.RestTemplateClient - {"id":13,"category":{"id":13,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":13,"name":"string"}],"status":"available"}
+2021-04-15 20:23:32 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:23:33 [main] INFO  restApiClient.RestTemplateClient - {"id":12,"category":{"id":12,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":12,"name":"string"}],"status":"available"}
+2021-04-15 20:23:33 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:23:33 [main] INFO  restApiClient.RestTemplateClient - {"id":12,"category":{"id":12,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":12,"name":"string"}],"status":"available"}
+2021-04-15 20:23:33 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:23:33 [main] INFO  restApiClient.RestTemplateClient - {"id":13,"category":{"id":13,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":13,"name":"string"}],"status":"available"}
+2021-04-15 20:23:33 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:23:33 [main] INFO  restApiClient.RestTemplateClient - {"code":200,"type":"unknown","message":"12"}
+2021-04-15 20:23:43 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:23:45 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:23:45 [main] INFO  restApiClient.RestTemplateClient - {"id":12,"category":{"id":12,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":12,"name":"string"}],"status":"available"}
+2021-04-15 20:23:45 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:23:45 [main] INFO  restApiClient.RestTemplateClient - {"id":13,"category":{"id":13,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":13,"name":"string"}],"status":"available"}
+2021-04-15 20:24:46 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:24:47 [main] INFO  restApiClient.RestTemplateClient - {"id":12,"category":{"id":12,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":12,"name":"string"}],"status":"available"}
+2021-04-15 20:24:47 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:24:47 [main] INFO  restApiClient.RestTemplateClient - {"id":13,"category":{"id":13,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":13,"name":"string"}],"status":"available"}
+2021-04-15 20:24:47 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:24:47 [main] INFO  restApiClient.RestTemplateClient - {"id":12,"category":{"id":12,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":12,"name":"string"}],"status":"available"}
+2021-04-15 20:24:47 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:24:47 [main] INFO  restApiClient.RestTemplateClient - {"code":200,"type":"unknown","message":"12"}
+2021-04-15 20:24:53 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:24:54 [main] INFO  restApiClient.RestTemplateClient - {"id":12,"category":{"id":12,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":12,"name":"string"}],"status":"available"}
+2021-04-15 20:24:54 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:24:54 [main] INFO  restApiClient.RestTemplateClient - {"id":13,"category":{"id":13,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":13,"name":"string"}],"status":"available"}
+2021-04-15 20:24:54 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:24:54 [main] INFO  restApiClient.RestTemplateClient - {"id":12,"category":{"id":12,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":12,"name":"string"}],"status":"available"}
+2021-04-15 20:24:54 [main] INFO  restApiClient.RestTemplateClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:24:55 [main] INFO  restApiClient.RestTemplateClient - {"code":200,"type":"unknown","message":"12"}
+2021-04-15 20:32:54 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RequestSpecificationImpl@5c748168
+2021-04-15 20:32:55 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RestAssuredResponseImpl@53d2d002
+2021-04-15 20:32:55 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RequestSpecificationImpl@234c5e41
+2021-04-15 20:32:56 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RestAssuredResponseImpl@721d8ab5
+2021-04-15 20:32:56 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RequestSpecificationImpl@3a00b15d
+2021-04-15 20:32:57 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RestAssuredResponseImpl@4dfe8b37
+2021-04-15 20:32:57 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RequestSpecificationImpl@2a47597
+2021-04-15 20:32:58 [main] INFO  restApiClient.RestAssuredClient - io.restassured.internal.RestAssuredResponseImpl@5190010f
+2021-04-15 20:33:08 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:33:08 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 20:33:08 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 141,Chunked: false]
+2021-04-15 20:33:09 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:33:09 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:33:09 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 20:33:09 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 141,Chunked: false]
+2021-04-15 20:33:10 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:33:10 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:33:10 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 20:33:10 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 4,Chunked: false]
+2021-04-15 20:33:10 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:33:10 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:33:10 [main] INFO  restApiClient.HttpClient - [Content-Type: application/json]
+2021-04-15 20:33:10 [main] INFO  restApiClient.HttpClient - [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 141,Chunked: false]
+2021-04-15 20:33:11 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:36:29 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:36:29 [main] INFO  restApiClient.HttpClient - org.apache.http.impl.client.InternalHttpClient@26f3d90c
+2021-04-15 20:36:30 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:36:30 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:36:30 [main] INFO  restApiClient.HttpClient - org.apache.http.impl.client.InternalHttpClient@a64e035
+2021-04-15 20:36:31 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:36:31 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:36:31 [main] INFO  restApiClient.HttpClient - org.apache.http.impl.client.InternalHttpClient@7a344b65
+2021-04-15 20:36:31 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:36:32 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:36:32 [main] INFO  restApiClient.HttpClient - org.apache.http.impl.client.InternalHttpClient@7351a16e
+2021-04-15 20:36:32 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:37:26 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:37:27 [main] INFO  restApiClient.HttpClient - org.apache.http.impl.client.InternalHttpClient@62e8f862
+2021-04-15 20:37:27 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:37:27 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:37:27 [main] INFO  restApiClient.HttpClient - org.apache.http.impl.client.InternalHttpClient@543e593
+2021-04-15 20:37:28 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:37:28 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:37:28 [main] INFO  restApiClient.HttpClient - org.apache.http.impl.client.InternalHttpClient@185f7840
+2021-04-15 20:37:29 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:37:29 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:37:29 [main] INFO  restApiClient.HttpClient - org.apache.http.impl.client.InternalHttpClient@3d36dff4
+2021-04-15 20:37:29 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
