@@ -318,3 +318,15 @@
 2021-04-15 20:37:29 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/12
 2021-04-15 20:37:29 [main] INFO  restApiClient.HttpClient - org.apache.http.impl.client.InternalHttpClient@3d36dff4
 2021-04-15 20:37:29 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:49:43 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:49:43 [main] INFO  restApiClient.HttpClient - org.apache.http.impl.client.InternalHttpClient@251ebf23
+2021-04-15 20:49:44 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:49:44 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet
+2021-04-15 20:49:44 [main] INFO  restApiClient.HttpClient - org.apache.http.impl.client.InternalHttpClient@37fdfb05
+2021-04-15 20:49:45 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:49:45 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:49:45 [main] INFO  restApiClient.HttpClient - org.apache.http.impl.client.InternalHttpClient@3be4f71
+2021-04-15 20:49:46 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}
+2021-04-15 20:49:46 [main] INFO  restApiClient.HttpClient - https://petstore.swagger.io/v2/pet/12
+2021-04-15 20:49:46 [main] INFO  restApiClient.HttpClient - org.apache.http.impl.client.InternalHttpClient@127f9161
+2021-04-15 20:49:46 [main] INFO  restApiClient.HttpClient - ResponseEntityProxy{[Content-Type: application/json,Chunked: true]}

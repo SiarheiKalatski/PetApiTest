@@ -79,7 +79,7 @@ public class HttpClient extends BaseRestClient {
     }
 
     @SneakyThrows
-    private HttpClient buildUrl(String url, Map<String, String> pathParams, Map<String, String> queryParams){
+    private HttpClient buildUrl(String url, Map<String, String> pathParams, Map<String, String> queryParams) {
         urlRequest = url;
         pathParams.forEach((k, v) -> urlRequest = urlRequest.replace("{" + k + "}", v));
         builder = new URIBuilder(urlRequest);
@@ -90,9 +90,9 @@ public class HttpClient extends BaseRestClient {
     }
 
     @SneakyThrows
-    private <T>HttpClient setHeadersAndBody(Map<String, String> headers, T t){
+    private <T> HttpClient setHeadersAndBody(Map<String, String> headers, T t) {
         headersList = new ArrayList<>();
-        headers.forEach((k,v)-> headersList.add(new BasicHeader(k,v)));
+        headers.forEach((k, v) -> headersList.add(new BasicHeader(k, v)));
         entity = new StringEntity(new ObjectMapper().writeValueAsString(t));
         httpClient = HttpClients.custom().setDefaultHeaders(headersList).build();
         logger.info(httpClient);

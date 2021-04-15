@@ -25,8 +25,8 @@ public class RestTemplateClient extends BaseRestClient {
 
     @Override
     public <T> BaseRestClient buildRequest(String url, Map<String, String> path, Map<String, String> queryParams, Map<String, String> headers, T t) {
-        buildUrl(url,path,queryParams);
-        setHeadersAndBody(headers,t);
+        buildUrl(url, path, queryParams);
+        setHeadersAndBody(headers, t);
         return this;
     }
 

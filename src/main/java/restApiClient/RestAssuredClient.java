@@ -23,8 +23,8 @@ public class RestAssuredClient extends BaseRestClient {
     public <T> RestAssuredClient buildRequest(String url, Map<String, String> path,
                                               Map<String, String> queryParams, Map<String, String> headers, T t) {
         requestSpecification = given();
-        buildUrl(url,path, queryParams);
-        setHeaderAndBody(headers,t);
+        buildUrl(url, path, queryParams);
+        setHeaderAndBody(headers, t);
         return this;
     }
 
